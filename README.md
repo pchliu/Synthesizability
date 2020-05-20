@@ -2,7 +2,7 @@
 
 Synthesizability of organic molecules is crucial to drug development. Computation of synthesizability (0-10) via Molecule.one takes minutes for a single molecule, and we here speed it up ~50000x using MPNN based on Chemprop. 
 
-*Structure*
+## Structure
 
 <b>/Molecule.one</b> - synthesizability computed via Molecule.one, in either 0-10 format or binary (0/1) format. Binary_corrected refers to assigning known molecules (e.g. approved and investigational drugs) to be 1 instead of that computed by Molecule.one. 
 
@@ -22,7 +22,7 @@ python /path/to/chemprop/predict.py --test_path molecules.csv --checkpoint_path 
 
 <b>/Chemprop</b> - predicted synthesizability using the best performing MPNN 
 
-*Dependencies and uses*
+## Dependencies and uses
 
 Use SMILES strings for input, outputs either a number between 0 (non-synthesizable)-10 or 0/1. Dependent on Chemprop and rdkit. Should be importable if LambdaZero is installed.
 
