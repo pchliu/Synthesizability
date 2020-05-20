@@ -1,6 +1,6 @@
 # Learning Synthesizability via MPNN
 
-Synthesizability of organic molecules is crucial to drug development. Computation of synthesizability (0-10) via Molecule.one takes minutes for a single molecule, and we here speed it up ~50000x using MPNN based on Chemprop. 
+Synthesizability of organic molecules is crucial to drug development. Computation of synthesizability (0-10) via Molecule.one takes minutes for a single molecule, and we here speed it up ~50000x using MPNN based on Chemprop (5-10 ms). 
 
 ## Structure
 
