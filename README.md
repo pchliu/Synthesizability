@@ -10,12 +10,15 @@ Synthesizability of organic molecules is crucial to drug development. Computatio
 
 /Molecule.one/Attributes - Molecular weight, QED of the molecules. Calculated using rdkit.
 
-/Molecule.one/Scripts - Processing scripts for Molecule.one input/output
-
 
 <b>/MPNN</b> - the best performing Chemprop model to date for regression (0-10), binary classification, and binary classification with corrected synthesizability. --args.json specifies the tuned hyperparameters, --results.log specifies the performance, --verbose.log logs the training information.
 
-To make predictions: 
+To train models, see args.py in chemprop: 
+```
+python /path/to/chemprop/train.py --data_path <pah> --dataset_type <type> --save_dir <dir>
+```
+
+To make predictions using existing models: 
 ```
 python /path/to/chemprop/predict.py --test_path molecules.csv --checkpoint_path /MPNN/Regression/model_0/model.pt --preds_path molecules_predicted.csv
 ```
