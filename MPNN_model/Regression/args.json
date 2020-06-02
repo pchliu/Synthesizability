@@ -8,7 +8,7 @@
     "checkpoint_path": null,
     "checkpoint_paths": null,
     "class_balance": false,
-    "config_path": "regression_fin2_hyperparameters.json",
+    "config_path": "hyperparameters_regression.json",
     "crossval_index_dir": null,
     "crossval_index_file": null,
     "crossval_index_sets": null,
@@ -50,7 +50,7 @@
     "pytorch_seed": 0,
     "quiet": true,
     "reproducibility": {
-        "command_line": "python train.py --data_path ./regression_fin/regression_fin2.csv --dataset_type regression --num_folds 5 --epochs 400 --quiet --config_path regression_fin2_hyperparameters.json --save_dir ./regression_fin/2",
+        "command_line": "python train.py --data_path ./regression_fin/regression_fin2.csv --dataset_type regression --num_folds 5 --epochs 400 --quiet --config_path hyperparameters_regression.json --save_dir ./regression_fin/2",
         "git_has_uncommitted_changes": true,
         "git_root": "/home/pchliu/chemprop",
         "git_url": "https://github.com/chemprop/chemp/tree/7d173c134b286acd4c039bf5cdb80a642fb66c47",

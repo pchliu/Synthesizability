@@ -8,7 +8,7 @@
     "checkpoint_path": null,
     "checkpoint_paths": null,
     "class_balance": false,
-    "config_path": "hyperparameters_full_binary.json",
+    "config_path": "hyperparameters_binary.json",
     "crossval_index_dir": null,
     "crossval_index_file": null,
     "crossval_index_sets": null,
@@ -50,7 +50,7 @@
     "pytorch_seed": 0,
     "quiet": true,
     "reproducibility": {
-        "command_line": "python train.py --data_path combined_training_full_binary.csv --dataset_type classification --num_folds 5 --epochs 250 --quiet --config_path hyperparameters_full_binary.json --save_dir ./synthesis_full_binary",
+        "command_line": "python train.py --data_path combined_training_full_binary.csv --dataset_type classification --num_folds 5 --epochs 250 --quiet --config_path hyperparameters_binary.json --save_dir ./synthesis_full_binary",
         "git_has_uncommitted_changes": true,
         "git_root": "/home/pchliu/chemprop",
         "git_url": "https://github.com/chemprop/chemp/tree/7d173c134b286acd4c039bf5cdb80a642fb66c47",
