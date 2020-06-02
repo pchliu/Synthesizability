@@ -1,17 +1,19 @@
 # Learning Synthesizability via MPNN
 
-Synthesizability of organic molecules is crucial to drug development. Computation of synthesizability (0-10) via Molecule.one takes minutes for a single molecule, and we here speed it up ~50000x using MPNN based on Chemprop (5-10 ms). 
+Synthesizability of organic molecules is crucial to drug development. Computation of synthesizability (0-10) via Molecule.one takes minutes for a single molecule, and we here speed it up ~50000x using MPNN based on Chemprop (2-10 ms). 
 
 ## Structure
 
-<b>/Molecule.one</b> - synthesizability computed via Molecule.one, in either 0-10 format or binary (0/1) format. Binary_corrected refers to assigning known molecules (e.g. approved and investigational drugs) to be 1 instead of that computed by Molecule.one. 
+<b>/Molecule.one</b> - synthesizability computed via Molecule.one, in either 0-10 format or _binary (0/1) format. Binary_corrected refers to assigning known molecules (e.g. approved and investigational drugs) to be 1 instead of that computed by Molecule.one. _normalized refers to different ways the _original dataset is normalized, the one in use in _normalized_2.csv.   
 
-/Molecule.one/Original - Synthesizability split into categories, e.g. molecules generated via random walk (100k, from /MKorablyov/LambdaZero/LambdaZero/datasets/brutal_dock/actor_dock.py), FDA approved/investigational drugs from Zinc15 database (6k), molecules from Emmanuel Bengio's RL algorithm (500). 
+/Molecule.one/Category - Synthesizability split into categories, e.g. molecules generated via random walk (100k, from /MKorablyov/LambdaZero/LambdaZero/datasets/brutal_dock/actor_dock.py), FDA approved/investigational drugs from Zinc15 database (6k), molecules from Emmanuel Bengio's RL algorithm (500). 
+
+/Molecule.one/Original - Original .json output for Molecule.one, also contains number of steps (0 is commercially available, null is error)
 
 /Molecule.one/Attributes - Molecular weight, QED of the molecules. Calculated using rdkit.
 
 
-<b>/MPNN</b> - the best performing Chemprop model to date for regression (0-10), binary classification, and binary classification with corrected synthesizability. --args.json specifies the tuned hyperparameters, --results.log specifies the performance, --verbose.log logs the training information.
+<b>/MPNN_model</b> - the best performing Chemprop model to date for regression (0-10), binary classification, and binary classification with corrected synthesizability. --args.json specifies the tuned hyperparameters, --results.log specifies the performance, --verbose.log logs the training information.
 
 To train models, see args.py in chemprop: 
 ```

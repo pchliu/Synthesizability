@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6c16b0e-6efa-4ef0-99f8-8b8ae84fa014" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Molecule.one/Original/Emmanuel_molcules_results_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Molecule.one/Original/Zinc15_fda_results_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Molecule.one/Original/Zinc15_investigational_results_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Molecule.one/Original/random_walk_100k_results_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Molecule.one/Synthesizability_full_binary_corrected.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Molecule.one/Synthesizability_training_full.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Molecule.one/Synthesizability_training_full_binary.csv" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cEj4LrtdeWVlirdp088sinM9AJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6c16b0e-6efa-4ef0-99f8-8b8ae84fa014" name="Default Changelist" comment="" />
+      <created>1590100454613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590100454613</updated>
+      <workItem from="1590100456363" duration="18000" />
+      <workItem from="1590167101894" duration="458000" />
+      <workItem from="1590697294762" duration="451000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
